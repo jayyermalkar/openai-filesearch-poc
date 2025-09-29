@@ -3,7 +3,7 @@
 ask_questions.py
 
 This script:
-  1) Loads the vector store ID saved by ingest_policies.py
+  1) Loads the vector store ID saved by upload_files.py
   2) Runs a File Search-powered Responses API call
   3) Prints the grounded answer
   4) Displays which files/snippets were used as sources
