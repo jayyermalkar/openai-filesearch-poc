@@ -41,6 +41,7 @@ def print_search_citations(response):
 
 
 def main():
+    # uncomment the lines below if your env depends on the certificate, mine doesn't
     # load_dotenv()
     # cert = os.path.join(os.path.dirname(__file__), '../Zscaler.cer')
     # os.environ["REQUESTS_CA_BUNDLE"] = cert
